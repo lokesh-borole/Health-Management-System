@@ -51,26 +51,26 @@ def retrive(k):
         c = int(input('\n Enter 1 for exercise and 2 for food : '))
         if c == 1:
             with open('lokesh-ex.txt') as f:
-                print(f.readlines())
+                print(f.read())
         elif c == 2:
             with open('lokesh-food.txt') as f:
-                print(f.readlines())
+                print(f.read())
     elif k == 2:
         c = int(input('\nEnter 1 for exercise and 2 for food : '))
         if c == 1:
             with open('kanha-ex.txt') as f:
-                print(f.readlines())
+                print(f.read())
         elif c == 2:
             with open('kanha-food.txt') as f:
-                print(f.readlines())
+                print(f.read())
     elif k == 3:
         c = int(input('\nEnter 1 for exercise and 2 for food : '))
         if c == 1:
             with open('yogesh-ex.txt') as f:
-                print(f.readlines())
+                print(f.read())
         elif c == 2:
             with open('yogesh-food.txt') as f:
-                print(f.readlines())
+                print(f.read())
 
 
 print('\n Welcome to Health Management System \n')
